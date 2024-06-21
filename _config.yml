@@ -8,7 +8,7 @@
 # Site settings
 title: Ernest Bonnah, PhD
 email: daniel.sprockett@gmail.com
-description: Assistant Professor  |  Department of ECE  |  Baylor University
+description: Assistant Professor  <br>  Department of ECE  <br>  Baylor University 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ebonnah.github.io/" # the base hostname & protocol for your site
 twitter_username: danielsprockett
