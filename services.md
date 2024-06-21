@@ -1,7 +1,7 @@
 ---
 layout: page
 title : Services
-permalink: /Services/
+permalink: /services/
 ---
 
 <h1>R Packages</h1>
