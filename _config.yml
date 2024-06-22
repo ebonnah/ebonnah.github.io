@@ -26,8 +26,7 @@ location: >
 
 # Contact info. (shown in footer)
 contact: >
-    Contact me via email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p><br/>
-
+    Contact me via email: <a href="mailto:ernest_bonnah@baylor.edu" target="_blank">ernest_bonnah@baylor.edu</a><br/>
 plugins: [jekyll-paginate, kramdown]
 # Build settings
 markdown: kramdown
