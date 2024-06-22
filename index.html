@@ -80,6 +80,8 @@ layout: default
       <li>MSc. Telecommunication Engineering, <a href="https://www.knust.edu.gh//">Kwame Nkrumah University of Science and Technology, Ghana</a>, Nov. 2016</li>
       <li>BSc. Computer Engineering, <a href="https://www.knust.edu.gh//">Kwame Nkrumah University of Science and Technology, Ghana</a>, May. 2012</li>
     </ul>
+  <br>
+  <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
   {% for post in paginator.posts%}
   <div class="post postContent">
     <div  class="postDate"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
