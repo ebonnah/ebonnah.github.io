@@ -1,5 +1,5 @@
 ---
 layout: page
 title : Vacancies
-permalink: /Vacancies/
+permalink: /vacancies/
 ---
