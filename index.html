@@ -83,10 +83,6 @@ layout: default
   <br>
   <hr>
   <br>
-  <h1>Contact</h1>
-  <p>352 Naka Hall, Waco, Tx </p>
-  <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-  {% for post in paginator.posts%}
   <div class="post postContent">
     <div  class="postDate"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
     </div>
