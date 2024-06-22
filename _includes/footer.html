@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <p>class="footer-heading small-site-title">&copy {{ 'now' | date: "%Y" }} {{site.title | escape }}</p>
+    <p>&copy {{ 'now' | date: "%Y" }} {{site.title | escape }}</p>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
@@ -10,6 +10,30 @@
           <li>Powered By <a href="http://github.com/hemangsk/Gravity">Gravity</a></li>
           <li>Made with <i class="fa fa-heart"></i> on <a href="http://jekyllrb.com"><span>{ { Jekyll } }</a></span></li>
 
+
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3 footer-content">
+
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+
+         {% if site.instagram_username %}
+          <li>
+            {% include icon-instagram.html username=site.instagram_username %}
+          </li>
+          {% endif %}
 
         </ul>
       </div>
