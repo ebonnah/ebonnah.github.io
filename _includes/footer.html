@@ -1,26 +1,32 @@
 <footer class="site-footer">
 
-  <div class="wrapper">
+  <div id="footer" class="panel">
+  <div class="panel-footer">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-4">
+			
+            <p>&copy {{ 'now' | date: "%Y" }} {{site.title | escape }} </p>
 
-    <p>&copy {{ 'now' | date: "%Y" }} {{site.title | escape }}</p>
+              <p>{{ site.affiliation }}</p>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list footer-content">
-          <li>Powered By <a href="http://github.com/hemangsk/Gravity">Gravity</a></li>
-          <li>Made with <i class="fa fa-heart"></i> on <a href="http://jekyllrb.com"><span>{ { Jekyll } }</a></span></li>
+		   <p>  </p><p>
+            		  
+		</div>
 
-
-        </ul>
-      </div>
-      
-      <div class="col-sm-4">
+		<div class="col-sm-4">
             <p>{{ site.contact }}</p>
 		</div>
 
-      
-      
- 
+
+		<div class="col-sm-4">
+            <p>{{ site.location }}</p>
+		</div>
+
+	  </div>
+	</div>
+  </div>
+</div>
 
       <div class="footer-col footer-col-2 site-description">
       </div>
