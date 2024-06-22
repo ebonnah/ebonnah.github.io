@@ -19,7 +19,7 @@ theme-dark: false #Set to true to change to dark website theme
 
 # Location info. (shown in footer)
 location: >
-  Department of ECEbr/>
+  Department of ECE<br/>
   P.O. Box 513<br/>
   5600 MB Eindhoven<br/>
   Netherlands<br/>
