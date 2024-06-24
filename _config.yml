@@ -17,6 +17,9 @@ instagram_username:  post_doc_dad
 paginate: 5
 theme-dark: false #Set to true to change to dark website theme
 
+navigation:
+- {file: "index.html", title: "Home", icone: home}
+- {file: ""}
 # Location info. (shown in footer)
 location: >
   Department of ECE<br/>
