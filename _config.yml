@@ -18,8 +18,13 @@ paginate: 5
 theme-dark: false #Set to true to change to dark website theme
 
 navigation:
-- {file: "index.html", title: "Home", icone: home}
-- {file: ""}
+- {file: "/index.html", title: "Home", icon: home}
+- {file: "/about.md", title: "About me", icon: address-card}
+- {title: "Lab", url: "https://scholar.google.com/citations?user=9zsFLyIAAAAJ&hl=en"}
+- {file: "/research.md", title: "Research", icon: address-card}
+- {file: "/services.md", title: "Services", icon: address-card}
+- {file: "/vacancies.md", title: "Vacancies", icon: address-card}
+- {title: "Blog", file: "/blog.md"}
 # Location info. (shown in footer)
 location: >
   Department of ECE<br/>
